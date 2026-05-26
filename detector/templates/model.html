@@ -1,0 +1,193 @@
+{% extends 'base.html' %}
+
+{% block title %}Model{% endblock %}
+
+{% block content %}
+<section class="model-hero">
+        <div class="container">
+            <h1 data-aos="fade-up">AI Model Architecture</h1>
+            <p data-aos="fade-up">
+            Deep learning model for detecting pancreatic cancer from MRI scans.
+            </p>
+        </div>
+        </section>
+
+        <!-- ===== MODEL OVERVIEW ===== -->
+        <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+
+            <div class="col-lg-6" data-aos="fade-right">
+                <img src="https://images.unsplash.com/photo-1581093588401-22b5ad7d68e5"
+                    class="img-fluid model-img">
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-left">
+                <h2>Model Overview</h2>
+                <p>
+                Our system uses a Convolutional Neural Network (CNN) architecture
+                to extract spatial features from MRI scans. The model is trained
+                using labeled datasets to classify images into cancerous and non-cancerous categories.
+                </p>
+
+                <ul class="list-unstyled mt-3">
+                <li><i class="fas fa-check-circle text-info"></i> CNN / ResNet Architecture</li>
+                <li><i class="fas fa-check-circle text-info"></i> Feature Extraction Layers</li>
+                <li><i class="fas fa-check-circle text-info"></i> Fully Connected Classification</li>
+                </ul>
+            </div>
+
+            </div>
+        </div>
+        </section>
+
+        <!-- ===== PIPELINE ===== -->
+        <section class="py-5" style="background:#1c1c1c;">
+        <div class="container text-center">
+
+            <h2 data-aos="fade-up">Model Pipeline</h2>
+
+            <div class="row mt-5">
+
+            <div class="col-md-3" data-aos="zoom-in">
+                <div class="glass-card">
+                <i class="fas fa-upload icon"></i>
+                <h5>Input</h5>
+                <p>MRI Scan Image</p>
+                </div>
+            </div>
+
+            <div class="col-md-3" data-aos="zoom-in" data-aos-delay="150">
+                <div class="glass-card">
+                <i class="fas fa-image icon"></i>
+                <h5>Preprocessing</h5>
+                <p>Resize, Normalize, Enhance</p>
+                </div>
+            </div>
+
+            <div class="col-md-3" data-aos="zoom-in" data-aos-delay="300">
+                <div class="glass-card">
+                <i class="fas fa-brain icon"></i>
+                <h5>Feature Extraction</h5>
+                <p>Deep CNN Layers</p>
+                </div>
+            </div>
+
+            <div class="col-md-3" data-aos="zoom-in" data-aos-delay="450">
+                <div class="glass-card">
+                <i class="fas fa-chart-line icon"></i>
+                <h5>Prediction</h5>
+                <p>Cancer / No Cancer</p>
+                </div>
+            </div>
+
+            </div>
+
+        </div>
+        </section>
+
+        <!-- ===== TRAINING DETAILS ===== -->
+        <section class="py-5">
+        <div class="container">
+
+            <h2 class="text-center" data-aos="fade-up">Training Details</h2>
+
+            <div class="row mt-4">
+
+            <div class="col-md-6" data-aos="fade-right">
+                <div class="glass-card">
+                <h5>Dataset</h5>
+                <p>Annotated MRI dataset with cancer labels.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-left">
+                <div class="glass-card">
+                <h5>Training</h5>
+                <p>Model trained using supervised learning and optimized loss functions.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 mt-3" data-aos="fade-right">
+                <div class="glass-card">
+                <h5>Tools</h5>
+                <p>Python, TensorFlow / PyTorch.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 mt-3" data-aos="fade-left">
+                <div class="glass-card">
+                <h5>Evaluation</h5>
+                <p>Accuracy, precision, recall, F1-score metrics.</p>
+                </div>
+            </div>
+
+            </div>
+
+        </div>
+        </section>
+
+        <!-- ===== PERFORMANCE ===== -->
+        <section class="py-5" style="background:#1c1c1c;">
+        <div class="container text-center">
+
+            <h2 data-aos="fade-up">Model Performance</h2>
+
+            <div class="row mt-4">
+
+            <div class="col-md-3" data-aos="zoom-in">
+                <div class="metric">95%</div>
+                <p>Accuracy</p>
+            </div>
+
+            <div class="col-md-3" data-aos="zoom-in" data-aos-delay="150">
+                <div class="metric">92%</div>
+                <p>Precision</p>
+            </div>
+
+            <div class="col-md-3" data-aos="zoom-in" data-aos-delay="300">
+                <div class="metric">93%</div>
+                <p>Recall</p>
+            </div>
+
+            <div class="col-md-3" data-aos="zoom-in" data-aos-delay="450">
+                <div class="metric">94%</div>
+                <p>F1 Score</p>
+            </div>
+
+            </div>
+
+        </div>
+        </section>
+
+        <!-- ===== SAMPLE OUTPUT ===== -->
+        <section class="py-5">
+        <div class="container text-center">
+
+            <h2 data-aos="fade-up">Sample Predictions</h2>
+
+            <div class="row mt-4">
+
+            <div class="col-md-4" data-aos="zoom-in">
+                <img src="https://images.unsplash.com/photo-1576086213369-97a306d36557"
+                    class="img-fluid model-img">
+                <p class="mt-2">Cancer Detected</p>
+            </div>
+
+            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="150">
+                <img src="https://images.unsplash.com/photo-1580281657527-47f249e5d2b9"
+                    class="img-fluid model-img">
+                <p class="mt-2">No Cancer</p>
+            </div>
+
+            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+                <img src="https://images.unsplash.com/photo-1581091012184-5c1c2a92e9b3"
+                    class="img-fluid model-img">
+                <p class="mt-2">Prediction Result</p>
+            </div>
+
+            </div>
+
+        </div>
+        </section>
+{% endblock %}

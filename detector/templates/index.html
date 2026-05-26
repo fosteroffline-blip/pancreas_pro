@@ -1,0 +1,236 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+
+ <!-- ===== HERO ===== -->
+        <section class="hero">
+            <div class="container">
+                <div class="row align-items-center">
+
+                <!-- TEXT -->
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h1>AI-Powered Pancreas Cancer Detection</h1>
+                    <p class="mt-3">
+                    Detect pancreatic tumors from MRI scans using deep learning models with high precision and speed.
+                    </p>
+
+                    <div class="mt-4">
+                    <a href="upload MRI.html" class="btn btn-main btn-lg">
+                        <i class="fas fa-upload"></i> Upload MRI
+                    </a>
+                    <a href="about.html" class="btn btn-outline-light btn-lg ms-2">
+                        Learn More
+                    </a>
+                    </div>
+
+                    <!-- Features -->
+                    <div class="row mt-5">
+
+                    <div class="col-4 text-center icon-box" data-aos="zoom-in">
+                        <i class="fas fa-brain"></i>
+                        <p>AI Model</p>
+                    </div>
+
+                    <div class="col-4 text-center icon-box" data-aos="zoom-in" data-aos-delay="150">
+                        <i class="fas fa-x-ray"></i>
+                        <p>MRI Analysis</p>
+                    </div>
+
+                    <div class="col-4 text-center icon-box" data-aos="zoom-in" data-aos-delay="300">
+                        <i class="fas fa-chart-line"></i>
+                        <p>Accurate Results</p>
+                    </div>
+
+                    </div>
+                </div>
+
+                <!-- IMAGE -->
+                <div class="col-lg-6 text-center" data-aos="fade-left">
+                    <img src="https://images.unsplash.com/photo-1581093588401-22b5ad7d68e5"
+                        class="img-fluid hero-img"
+                        alt="MRI Scan">
+                </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- ===== ABOUT SECTION ===== -->
+        <section class="py-5" style="background: #0f2027; color: white;">
+            <div class="container">
+
+                <div class="row align-items-center">
+
+                <!-- IMAGE SIDE -->
+                <div class="col-lg-6 text-center" data-aos="fade-right">
+                    <img src="https://images.unsplash.com/photo-1579154204601-01588f351e67"
+                        class="img-fluid rounded shadow-lg about-img"
+                        alt="Medical AI">
+                </div>
+
+                <!-- CONTENT SIDE -->
+                <div class="col-lg-6" data-aos="fade-left">
+
+                    <h2 class="fw-bold mb-3">About the Project</h2>
+
+                    <p>
+                    Our system uses advanced deep learning techniques to analyze MRI scans
+                    and detect pancreatic cancer at an early stage. The goal is to assist
+                    doctors with faster, more accurate diagnosis and improve patient outcomes.<p>
+            This intelligent diagnostic system leverages advanced deep learning models to analyze high-resolution MRI scans and identify early signs of pancreatic cancer with remarkable precision. By extracting complex patterns and features from medical images, the system assists healthcare professionals in making faster, data-driven decisions.
+
+            Pancreatic cancer is often difficult to detect in its early stages due to subtle visual variations in imaging data. Our solution addresses this challenge by integrating image preprocessing techniques, feature extraction, and convolutional neural networks (CNNs) to enhance detection accuracy.
+
+            The platform is designed to provide instant predictions, reduce diagnostic workload, and improve clinical outcomes. With a user-friendly interface and real-time analysis, this system bridges the gap between artificial intelligence and modern medical diagnostics.
+            </p>
+                    
+                    </p>
+
+                    <!-- FEATURES -->
+                    <div class="row mt-4">
+
+                    <div class="col-md-6 mb-3" data-aos="zoom-in">
+                        <div class="feature-box">
+                        <i class="fas fa-robot"></i>
+                        <h5>AI Powered</h5>
+                        <p>Deep learning models trained on MRI datasets.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-3" data-aos="zoom-in" data-aos-delay="150">
+                        <div class="feature-box">
+                        <i class="fas fa-heartbeat"></i>
+                        <h5>Early Detection</h5>
+                        <p>Identify cancer at early stages for better survival.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-3" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="feature-box">
+                        <i class="fas fa-x-ray"></i>
+                        <h5>MRI Analysis</h5>
+                        <p>Processes high-resolution MRI scan images.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-3" data-aos="zoom-in" data-aos-delay="450">
+                        <div class="feature-box">
+                        <i class="fas fa-bolt"></i>
+                        <h5>Fast Results</h5>
+                        <p>Instant prediction with high accuracy.</p>
+                        </div>
+                    </div>
+
+                    </div>
+
+                </div>
+
+                </div>
+
+                <!-- STATS SECTION -->
+                <div class="row text-center mt-5">
+
+                <div class="col-md-3" data-aos="fade-up">
+                    <h2 class="counter">95%</h2>
+                    <p>Accuracy</p>
+                </div>
+
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="150">
+                    <h2 class="counter">1000+</h2>
+                    <p>MRI Scans</p>
+                </div>
+
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+                    <h2 class="counter">24/7</h2>
+                    <p>Availability</p>
+                </div>
+
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="450">
+                    <h2 class="counter">AI</h2>
+                    <p>Automation</p>
+                </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- ===== WORKING PROCESS (ADVANCED) ===== -->
+        <section class="py-5" style="background: linear-gradient(135deg,#0f2027,#203a43,#2c5364); color:white;">
+            <div class="container">
+
+                <!-- HEADING -->
+                <div class="text-center mb-5">
+                <h2 class="fw-bold" data-aos="fade-up">System Working Process</h2>
+                <p data-aos="fade-up">
+                    A complete pipeline of how MRI images are processed using AI for accurate pancreatic cancer detection.
+                </p>
+                </div>
+
+                <!-- TIMELINE -->
+                <div class="position-relative">
+
+                <!-- LINE -->
+                <div class="timeline-line"></div>
+
+                <!-- STEP 1 -->
+                <div class="row align-items-center mb-5">
+                    <div class="col-md-6" data-aos="fade-right">
+                    <div class="process-card">
+                        <h4><i class="fas fa-upload text-info"></i> Upload MRI Scan</h4>
+                        <p>User uploads MRI scan image through the system interface for analysis.</p>
+                    </div>
+                    </div>
+                    <div class="col-md-6 text-center" data-aos="fade-left">
+                    <img src="https://images.unsplash.com/photo-1580281657527-47f249e5d2b9"
+                        class="img-fluid rounded process-img">
+                    </div>
+                </div>
+
+                <!-- STEP 2 -->
+                <div class="row align-items-center mb-5 flex-md-row-reverse">
+                    <div class="col-md-6" data-aos="fade-left">
+                    <div class="process-card">
+                        <h4><i class="fas fa-sliders-h text-info"></i> Image Preprocessing</h4>
+                        <p>Noise removal, grayscale conversion, and normalization improve image quality.</p>
+                    </div>
+                    </div>
+                    <div class="col-md-6 text-center" data-aos="fade-right">
+                    <img src="https://images.unsplash.com/photo-1581093588401-22b5ad7d68e5"
+                        class="img-fluid rounded process-img">
+                    </div>
+                </div>
+
+                <!-- STEP 3 -->
+                <div class="row align-items-center mb-5">
+                    <div class="col-md-6" data-aos="fade-right">
+                    <div class="process-card">
+                        <h4><i class="fas fa-brain text-info"></i> Deep Learning Model</h4>
+                        <p>CNN/ResNet model extracts features and detects cancer patterns from MRI scans.</p>
+                    </div>
+                    </div>
+                    <div class="col-md-6 text-center" data-aos="fade-left">
+                    <img src="https://images.unsplash.com/photo-1559757175-5700dde675bc"
+                        class="img-fluid rounded process-img">
+                    </div>
+                </div>
+
+                <!-- STEP 4 -->
+                <div class="row align-items-center mb-5 flex-md-row-reverse">
+                    <div class="col-md-6" data-aos="fade-left">
+                    <div class="process-card">
+                        <h4><i class="fas fa-chart-line text-info"></i> Prediction Result</h4>
+                        <p>System outputs cancer detection result with confidence score and insights.</p>
+                    </div>
+                    </div>
+                    <div class="col-md-6 text-center" data-aos="fade-right">
+                    <img src="https://images.unsplash.com/photo-1576086213369-97a306d36557"
+                        class="img-fluid rounded process-img">
+                    </div>
+                </div>
+
+                </div>
+            </div>
+        </section>
+
+{% endblock %}
